@@ -1,0 +1,83 @@
+body {
+  min-height: 100vh;
+  width: 100%;
+  overflow-x: hidden;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 10px;
+  color: rgb(0, 191, 255);
+}
+.nav-links li {
+  cursor: pointer;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+main {
+  max-width: 1400px;
+  margin: auto;
+}
+nav span {
+  color: rgb(0, 191, 255);
+}
+section div {
+  flex: 1;
+}
+section img {
+  flex: 1;
+}
+section {
+  display: flex;
+  align-items: center;
+}
+section div h1 {
+  max-width: 30vw;
+  background-color: white;
+  font-size: 4vw;
+}
+a {
+  color: black;
+}
+.about-heading {
+  text-align: center;
+}
+.about-desc {
+  font-size: 3vw;
+  text-align: center;
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: serif;
+}
+.course-card {
+  width: 23%; /* 4 cards per row, leaving a small gap */
+  margin: 10px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.2s;
+}
+
+.course-card img {
+  max-width: 100%;
+  height: auto;
+}
+
+.course-card:hover {
+  transform: scale(1.05);
+}
+
+/* Basic styling for the container */
+.course-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
